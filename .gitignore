@@ -1,0 +1,30 @@
+# 密钥和敏感文件
+*.pem
+*.key
+.env
+.env.local
+*.local
+credentials.json
+secret.json
+
+# 编译产物
+*.o
+*.so
+*.a
+*.dylib
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 备份文件
+*.bak
+*.backup
